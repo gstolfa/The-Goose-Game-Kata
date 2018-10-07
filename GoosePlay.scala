@@ -179,7 +179,6 @@ def executeMove(player_name: String, new_position : Int, current_position:Int, t
   players += ( player_name -> new_position )
   println(text_to_print + text_to_add)
 
-  // da togliere
   //players.foreach(println)
 
   val command = scanner.nextLine()
